@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Tv_logintop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="90sp"
+        android:layout_marginBottom="50sp"
+        android:text="LOG IN"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:textColor="#D32F2F"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/EdtlogEmail"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:background="#E1F5FE"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:ems="10"
+        android:hint="Enter Email Address"
+        android:inputType="textEmailAddress"
+        android:minHeight="50sp"
+        android:textColorHint="#D32F2F"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <EditText
+        android:id="@+id/EdtlogPass"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:background="#E1F5FE"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:textColorHint="#D32F2F"
+        android:inputType="textPassword"
+        android:minHeight="50sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D32F2F"
+        android:layout_marginRight="90sp"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="50sp"
+        android:textSize="20sp"
+        android:textColor="#FEFAE0"
+        android:text="Log in" />
+
+    <TextView
+        android:id="@+id/Tv_login"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:textSize="15sp"
+        android:textColor="#D32F2F"
+        android:text="Don't Have an Account! Click Here to create."
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "919228128714",
+    "project_id": "bloodgram-43236",
+    "storage_bucket": "bloodgram-43236.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919228128714:android:91582af2206f1f3cd94333",
+        "android_client_info": {
+          "package_name": "com.example.bloodgram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919228128714-jhn19kci5eq8u38pnh2hait563eqjrmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLFuPHnhBzNwgnynbjCBABQ434GAGo1Y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919228128714-jhn19kci5eq8u38pnh2hait563eqjrmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
